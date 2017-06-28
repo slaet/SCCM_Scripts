@@ -1,0 +1,9 @@
+
+Delete IIS Logs
+-ExecutionPolicy Bypass -file "D:\ScheduledTasks\DeleteIISLogs.ps1"
+
+Download SCEP Def Files
+-ExecutionPolicy Bypass -file "D:\ScheduledTasks\downloadscepupdates.ps1"
+
+WSUS CLeanUUpd
+-ExecutionPolicy Bypass -File "D:\ScheduledTasks\WSUS_CleanUp.ps1" -SRV localhost
